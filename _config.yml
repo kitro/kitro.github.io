@@ -1,0 +1,12 @@
+title: Nordine
+email: hi@nordine.me
+description: Software Developer Blog
+twitter_username: 0xbit
+github_username: kitro
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+paginate: 1
