@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Css !"
+date: 2024-11-27
+author: "Nordine"
+---
+
+The initial `post`, if you are here means that you are a `curious` :)
+
+Arigato!
+
+{% highlight ruby %}
+
+// Javascript example
+
+function print(name){
+console.log(name); // Name
+}
+print("Name");
+{% endhighlight %}
+
+> Javascript
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
