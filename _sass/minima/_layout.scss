@@ -67,9 +67,9 @@
   font-size: 4.4rem;
   font-family: "Jost", sans-serif;
   font-weight: bold;
-  &,
-  &:visited {
-    color: $nav-link-light-color;
+  color: white;
+  &:hover {
+    color: white;
   }
 }
 
