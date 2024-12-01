@@ -5,9 +5,8 @@ layout: default
 <div class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-
   {%- endif -%} {{ content }} {%- if site.posts.size > 0 -%}
-  <h1>Software Developer </h1>
+  <h1 class="title-font">Software Developer</h1>
   <h2 class="post-list-heading">
     Latest {{ page.list_title | default: "Posts" }}
   </h2>
@@ -26,8 +25,8 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
-  <a class="next-button" href="/blog/"
-    >All Posts<svg
+  <a class="next-button" href="/blog">
+    All Posts<svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
@@ -42,6 +41,5 @@ layout: default
       />
     </svg>
   </a>
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%} -->
+  {%- endif -%}
 </div>
